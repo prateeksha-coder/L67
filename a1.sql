@@ -11,6 +11,8 @@ INSERT INTO supplier(SNO,SNAME,STATUS,CITY) VALUES
 ('S3','BLAKE',50,'ATHENS'),
 ('S4','JOHN',10,'LONDON');
 
-SELECT * FROM supplier where CITY=='LONDON';
+SELECT * FROM supplier ;
+SELECT * FROM supplier where CITY=="LONDON";
+
 
 DROP TABLE supplier;
